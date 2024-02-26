@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.bottom-card{
+    display: none;
+}
+.main-card{
+    background-color: #00A7F8;
+    min-height: 120vh;
+}
+.small-card{
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.button{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    border-width: 0px;
+    color: #fff;
+    font-family: "roboto";
+    font-weight: 500;
+    background-color:#3B4856 ;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.form{
+    width: 90%;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.para{
+    font-family: "roboto";
+    font-size: 18px;
+    color: #fff;
+}
+.course-card{
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.full-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.image{
+    width: 100%;
+    border-radius: 10px;
+}
+.heading-name{
+    margin-left: 20px;
+    font-size: 40px;
+    color: #fff;
+    font-family: "roboto";
+    margin-bottom: 20px;
+}
+.login-img{
+    width: 70%;
+    background-color: transparent;
+}
+.account{
+    font-size: 30px;
+    color: #fff;
+    font-family: "roboto";
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.input-form{
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 90%;
+    text-align: center;
+}
+@media screen and (min-width:768px){
+    .input-form{
+        width: 100%;
+        height: 70px;
+        font-size: 30px;
+    }
+    .login-container{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .acount{
+        font-size: 60px;
+        line-height: 1.5px;
+    }
+    .button{
+        width: 300px;
+        font-size: 32px;
+        height: 70px;
+    }
+    .image{
+        width: 90%;
+    }
+    .login-img{
+        width: 90%;
+    }
+    .para{
+        font-size: 30px;
+    }
+    .nav-image{
+        width: 100px;
+        height: 80px;
+    }
+    .full-img{
+        width: 90%;
+        margin-top: 30px;
+    }
+    .heading-name{
+        font-size: 48px;
+    }
+}
+
+.navbar-image {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
